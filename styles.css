@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
 }
 
 body {
@@ -16,6 +17,35 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* CSS for homepage */
+
+h1 {
+    text-align: left;
+    text-transform: lowercase;
+    position: relative;
+    right: 400px;
+}
+
+.about-text {
+  position: relative;
+  left: 500px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  position: absolute;
+  top: 170px;
+  border-radius: 3px;
+  margin: 10px
+}
+
+/* CSS for portfolio */
+.projects img {
+  border-radius: 3px;
 }
 
 /* CSS for navigation bar */
@@ -51,6 +81,13 @@ main {
 
 .nav-list li:hover {
     background-color: skyblue;
+    color: white;
+    padding: 0px 0px;
+    text-decoration: underline;
+}
+
+.nav-list a:active {
+    background-color: lightblue;
     color: white;
     padding: 0px 0px;
     text-decoration: underline;
