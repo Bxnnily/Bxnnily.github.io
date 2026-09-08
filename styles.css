@@ -86,13 +86,6 @@ h1 {
     text-decoration: underline;
 }
 
-.nav-list a:active {
-    background-color: lightblue;
-    color: white;
-    padding: 0px 0px;
-    text-decoration: underline;
-}
-
 .navbar a {
   color: white;
   font-weight: bold;
