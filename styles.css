@@ -49,8 +49,8 @@ main {
   list-style: none;
 }
 
-a.nav-list:hover {
-    background-color: rgb(141, 77, 119);
+.nav-list li:hover {
+    background-color: skyblue;
     color: white;
     padding: 0px 0px;
     text-decoration: underline;
