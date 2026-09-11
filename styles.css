@@ -25,7 +25,7 @@ h1 {
     text-align: left;
     text-transform: lowercase;
     position: relative;
-    right: 400px;
+    right: 428px;
 }
 
 .about-text {
@@ -43,9 +43,108 @@ h1 {
   margin: 10px
 }
 
+/* CSS for blog */
+.blog-subtitle {
+  margin: 10px;
+}
+
 /* CSS for portfolio */
 .projects img {
   border-radius: 3px;
+}
+
+.portfolio-title {
+  position: relative;
+  left: 25px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.portfolio-subtitle {
+  position: relative;
+  left: 25px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* CSS for resume */
+.page-title {
+  position: relative;
+  right: 98px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.resume-link {
+  position: relative;
+  right: 98px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/*CSS for contact page */
+.h1.contact {
+  position: relative;
+  left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  position: relative;
+  left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#name {
+  position: relative;
+  left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-block-end: 10px;
+}
+
+#email {
+  position: relative;
+  left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-block-end: 10px;
+}
+
+#message {
+  position: relative;
+  left: 0px;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding-block-end: 10px;
+}
+
+#submit {
+  position: relative;
+  right: 322px;
+  text-align: left;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 /* CSS for navigation bar */
