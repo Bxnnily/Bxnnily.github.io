@@ -3,6 +3,12 @@ html {
   font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
 }
 
+.logo {
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+}
+
 body {
   background-color: white;
   position: relative;
